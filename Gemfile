@@ -36,3 +36,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Front-end framework for developing responsive, mobile first projects on the web.
+gem 'bootstrap-sass', '~> 3.1.1'
