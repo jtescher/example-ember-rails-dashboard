@@ -38,3 +38,7 @@ gem 'spring',        group: :development
 
 # Front-end framework for developing responsive, mobile first projects on the web.
 gem 'bootstrap-sass', '~> 3.1.1'
+
+# JS framework for creating ambitious web applications.
+gem 'ember-rails',  '~> 0.14.1'
+gem 'ember-source', '~> 1.5.0'
