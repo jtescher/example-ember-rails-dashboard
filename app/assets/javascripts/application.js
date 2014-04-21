@@ -11,4 +11,5 @@
 // about supported directives.
 //
 //= require jquery
+//= require accounting-0.3.2
 //= require_tree .

@@ -1,0 +1,22 @@
+<h1>Orders</h1>
+<table class='table table-striped'>
+  <tr>
+    <th>#</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Quantity</th>
+    <th>Revenue</th>
+  </tr>
+  {{#each}}
+  <tr>
+    <td>{{id}}</td>
+    <td>{{firstName}}</td>
+    <td>{{lastName}}</td>
+    <td>{{quantity}}</td>
+    <td>{{numberToCurrency revenue}}</td>
+  </tr>
+  {{/each}}
+</table>
+
+<p>Total Quantity: <b>{{totalQuantity}}</b></p>
+<p>Total Revenue: <b>{{numberToCurrency totalRevenue}}</b></p>
