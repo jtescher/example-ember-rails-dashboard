@@ -7,6 +7,7 @@ Dashboard.OrdersRoute = Ember.Route.extend({
         lastName: 'Deen',
         quantity: 1,
         revenue: '10.00',
+        productId: 1,
       },
       {
         id: 2,
@@ -14,6 +15,7 @@ Dashboard.OrdersRoute = Ember.Route.extend({
         lastName: 'Baldwin',
         quantity: 2,
         revenue: '20.00',
+        productId: 2,
       }
     ]
 })

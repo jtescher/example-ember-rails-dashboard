@@ -12,4 +12,5 @@
 //
 //= require jquery
 //= require accounting-0.3.2
+//= require highcharts-4.0.1
 //= require_tree .
